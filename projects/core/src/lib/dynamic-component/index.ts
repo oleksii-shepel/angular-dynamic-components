@@ -1,0 +1,5 @@
+export * from './dynamic-component.component'
+export * from './dynamic-component.model'
+export * from './dynamic-component.module'
+export * from './dynamic-component.pipe'
+export * from './dynamic-component.service'

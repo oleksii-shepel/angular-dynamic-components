@@ -1,0 +1,11 @@
+<ng-template #host></ng-template>
+
+<div role="alert" *ngIf="notFoundError && error">
+  <pre>
+    {{ componentId }}: {{ error }}
+  </pre>
+</div>
+
+<ng-template #projectableContent>
+  <ng-content></ng-content>
+</ng-template>
