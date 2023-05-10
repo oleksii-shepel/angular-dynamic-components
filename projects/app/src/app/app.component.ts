@@ -4,8 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: `
     <h1>Angular dynamic components</h1>
-    <lib-a-container></lib-a-container>
-    <lib-b-container></lib-b-container>
+    <app-hero-list></app-hero-list>
+    <app-sales-tax-calculator></app-sales-tax-calculator>
   `
 })
 export class AppComponent { }

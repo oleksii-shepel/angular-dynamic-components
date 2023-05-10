@@ -3,9 +3,6 @@ import { DynamicComponentModule, DynamicComponentService } from './dynamic-compo
 import { DynamicComponentUtilsService } from './dynamic-component-utils';
 
 @NgModule({
-  declarations: [
-
-  ],
   imports: [
     DynamicComponentModule
   ],

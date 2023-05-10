@@ -3,18 +3,18 @@ import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { CoreModule } from 'core';
-import { LibAModule } from 'lib-a';
-import { LibBModule } from 'lib-b';
-import { PluginModule } from './plugin.module';
+import { PluginsModule } from './plugins.module';
+import { HeroesModule } from 'projects/heroes/src/public-api';
+import { HeroDetailsModule } from 'projects/details/src/lib/hero-details.module';
 
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
     CoreModule,
-    LibAModule,
-    LibBModule,
-    PluginModule
+    HeroesModule,
+    HeroDetailsModule,
+    PluginsModule
   ],
   declarations: [
     AppComponent

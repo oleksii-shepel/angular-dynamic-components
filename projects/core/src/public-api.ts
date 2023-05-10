@@ -5,3 +5,5 @@
 export * from './lib/dynamic-component';
 export * from './lib/dynamic-component-utils';
 export * from './lib/core.module';
+export * from './lib/hero';
+

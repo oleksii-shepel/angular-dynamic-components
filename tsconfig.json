@@ -8,22 +8,22 @@
         "dist/core",
         "projects/core/src/public-api.ts"
       ],
-      "lib-a": [
-        "dist/lib-a",
-        "projects/lib-a/src/public-api.ts"
+      "details": [
+        "dist/details",
+        "projects/details/src/public-api.ts"
       ],
-      "lib-a/plugins": [
-        "dist/lib-a/plugins",
-        "projects/lib-a/plugins/src/index.ts"
+      "heroes": [
+        "dist/heroes",
+        "projects/heroes/src/public-api.ts"
       ],
-      "lib-b": [
-        "dist/lib-b",
-        "projects/lib-b/src/public-api.ts"
+      "heroes/plugins": [
+        "dist/heroes/plugins",
+        "projects/heroes/plugins/src/index.ts"
       ],
-      "lib-b/plugins": [
-        "dist/lib-b/plugins",
-        "projects/lib-b/plugins/src/index.ts"
-      ],
+      "details/plugins": [
+        "dist/details/plugins",
+        "projects/details/plugins/src/index.ts"
+      ]
     },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
